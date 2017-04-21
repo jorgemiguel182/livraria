@@ -1,5 +1,5 @@
 <?php include 'cabecalho.inc.html'; ?>
-<body>
+
   <form action="cadastro.php" method="post">
     <div id="cadastro">
       <h1 class="mid">Cadastro de novo cliente</h1>
@@ -34,7 +34,7 @@
           <td class="right"><label for="cadastro-end">Endereço completo: </label></td>
           <td><input type="password" name="cadastro-end" size=70><br></td>
         </tr>
-        
+
         <tr>
           <td class="right"><label for="cadastro-cidade">Cidade/Estado: </label></td>
           <td><input type="password" name="cadastro-cidade" size=70 ><br></td>
