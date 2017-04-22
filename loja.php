@@ -1,10 +1,7 @@
-<?php include 'cabecalho.inc.html'; ?>
-<?php require_once 'conecta_mysql.inc.php';
-
-$dados = $mysqli->query('select * from livros order by titulo');
-$linha = $dados->fetch_assoc();
-/* $total = $dados->affected_rows; */
-
+<?php require_once 'cabecalho.inc.php'; ?>
+<?php
+$result = $mysqli->query('select * from livros order by titulo');
+$linha = $result->fetch_assoc();
 ?>
 
 <div>
@@ -22,7 +19,6 @@ $linha = $dados->fetch_assoc();
     </table>
     <br>
     <hr>
-    <?php } while ($linha = ($linha = $dados->fetch_assoc())); ?>
+    <?php } while ($linha = ($linha = $result->fetch_assoc())); ?>
   </div>
-</body>
-</html>
+<?php require_once 'rodape.inc.php'; ?>

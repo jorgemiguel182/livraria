@@ -1,4 +1,4 @@
-<?php include 'cabecalho.inc.html'; ?>
+<?php require_once 'cabecalho.inc.php'; ?>
 
   <form action="cadastro.php" method="post">
     <div id="cadastro">
@@ -48,4 +48,4 @@
 
     </div>
   </form>
-</body>
+<?php require_once 'rodape.inc.php'; ?>

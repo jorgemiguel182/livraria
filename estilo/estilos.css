@@ -11,6 +11,18 @@
   font-size: 200%;
 }
 
+
+
+#header{
+ 
+top: 0;
+position: relative;
+width: 100%;
+ 
+	
+}
+
+
 #cabecalho h1{
   margin:auto;
   vertical-align:middle;
