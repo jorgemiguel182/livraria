@@ -14,12 +14,12 @@
 
 
 #header{
- 
+
 top: 0;
 position: relative;
 width: 100%;
- 
-	
+
+
 }
 
 
@@ -72,4 +72,18 @@ width: 100%;
 width: 100%;
 bottom: 0;
 position: fixed;
+}
+
+#cadastro_livros {
+  position: absolute;
+  left:20%;
+  width: 60%;
+}
+
+#cadastro_livros .mid{
+  text-align: center;
+}
+
+#cadastro_livros .right{
+  text-align: right;
 }

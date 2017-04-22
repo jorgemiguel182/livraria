@@ -11,5 +11,4 @@
     <div id="cabecalho">
       <h1><i>Livraria Banzai</i></h1>
     </div>
-  </header>
-  
+  </header>  
