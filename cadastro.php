@@ -1,6 +1,6 @@
 <?php require_once 'cabecalho.inc.php'; ?>
 
-  <form action="cadastro.php" method="post">
+  <form action="valida_cadastro.php" method="post">
     <div id="cadastro">
       <h1 class="mid">Cadastro de novo cliente</h1>
 
@@ -42,7 +42,7 @@
       </table><br>
 
       <div class="mid">
-        <button type="button" name="button" onclick="">Cadastrar novo cliente</button>
+        <input type='submit' value='Cadastrar novo.'>
       </div>
 
 
